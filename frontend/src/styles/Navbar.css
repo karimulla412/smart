@@ -1,0 +1,49 @@
+
+  .navbar {
+  background-color: #343a40;
+  padding: 12px 20px;
+  display: flex;
+  justify-content: space-between; /* Push left and right to edges */
+  align-items: center;
+  color: white;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.navbar-left .project-title {
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+.navbar-right {
+  display: flex;
+  align-items: center;
+}
+
+.nav-link {
+  color: white;
+  text-decoration: none;
+  margin-left: 20px; /* space between links */
+  font-weight: 500;
+}
+
+.nav-link:hover {
+  text-decoration: underline;
+}
+
+.logout-button {
+  background-color: #dc3545;
+  color: white;
+  border: none;
+  padding: 6px 12px;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-left: 20px; /* space from links */
+  font-weight: 500;
+}
+
+.logout-button:hover {
+  background-color: #b02a37;
+}
+
